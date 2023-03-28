@@ -53,8 +53,8 @@ logging.basicConfig(
 def start(message):
     """Отправляет пользователю сообщение с кнопками."""
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-    movies_button = types.KeyboardButton("Фильм", callback_data="movies")
-    series_button = types.KeyboardButton("Сериал", callback_data="series")
+    movies_button = types.KeyboardButton("Фильм")
+    series_button = types.KeyboardButton("Сериал")
     markup.add(movies_button)
     markup.add(series_button)
     try:
