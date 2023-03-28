@@ -3,12 +3,11 @@
 После нажатия одной из кнопок бот случайным образом выбирает фильм или сериал из списка, который 
 был загружен из файлов "data/movies.txt" и "data/series.txt".
 Структура:
-`
-├── movies_series_bot.py
-└── data
-    ├── movies.txt
-    └── series.txt
-`
+- movies_series_bot.py
+-- data
+---- movies.txt
+---- series.txt
+
 movies_series_bot.py - основной скрипт проекта.
 data/movies.txt - текстовый файл с названиями фильмов, каждый фильм на новой строке.
 data/series.txt - текстовый файл с названиями сериалов, каждый сериал на новой строке.
