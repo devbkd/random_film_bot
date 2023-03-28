@@ -16,7 +16,7 @@ CLICK = (
     'Сериал — для получения названия сериала.'
 )
 ERROR_EXIT_CODE = 1
-
+user_last_call_time = {}
 data = {
     'movies': [],
     'series': [],
